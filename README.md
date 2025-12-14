@@ -19,6 +19,7 @@ Model 2 ve Model 3’te pikseller [0,1] aralığına normalize edilmiştir.
 Model 1’de VGG16’ya uygun olacak şekilde preprocess_input kullanılmıştır.
 
 🧠 Model 1 – Transfer Learning (VGG16)
+
 🔹 Model Tanımı
 
 Model 1’de, ImageNet veri seti üzerinde önceden eğitilmiş VGG16 mimarisi kullanılmıştır. Taban model dondurulmuş, yalnızca üst sınıflandırıcı katmanlar eğitilmiştir.
@@ -43,7 +44,8 @@ Test Accuracy: %90.90
 
 Bu model, güçlü bir başlangıç (baseline) sağlar ancak önceden eğitilmiş bir mimariye bağımlıdır.
 
-🧪 Model 2 – Geliştirilmiş Custom CNN (Baseline)
+🧠 Model 2 – Geliştirilmiş Custom CNN (Baseline)
+
 🔹 Model Tanımı
 
 Model 2, sıfırdan tasarlanmış, Batch Normalization ve veri artırımı içeren bir custom CNN mimarisidir. Amaç, transfer learning kullanılmadan elde edilebilecek temel performansı ölçmektir.
@@ -71,7 +73,8 @@ Test Accuracy: %63.64
 
 Bu sonuç, Model 2’nin baseline custom CNN olarak görevini başarıyla yerine getirdiğini göstermektedir.
 
-🔬 Model 3 – İyileştirilmiş Custom CNN (Final Model)
+🧠 Model 3 – İyileştirilmiş Custom CNN (Final Model)
+
 🔹 Model Tanımı
 
 Model 3, Model 2’ye kıyasla daha sade, daha dengeli ve genelleme kabiliyeti yüksek olacak şekilde tasarlanmıştır. Amaç, gereksiz karmaşıklığı azaltarak performansı artırmaktır.
