@@ -8,10 +8,16 @@ Bu projede, iki sınıflı (çanta ve cüzdan) bir görüntü veri seti üzerind
 📁 Veri Seti ve Ön İşleme
 
 Sınıflar: canta, cuzdan
+
+
 Veri seti üçe ayrılmıştır:
+
 Train
+
 Validation
+
 Test
+
 
 Tüm görüntüler 128×128 piksel boyutuna yeniden ölçeklendirilmiştir.
 
@@ -63,18 +69,27 @@ Model 2, sıfırdan tasarlanmış, Batch Normalization ve veri artırımı içer
 🔹 Mimari
 
 Conv(32) → BatchNorm → ReLU → MaxPool
+
 Conv(64) → BatchNorm → ReLU → MaxPool
+
 Conv(128) → BatchNorm → ReLU → MaxPool
+
 Conv(256) → BatchNorm → ReLU → MaxPool
+
 Global Average Pooling
+
 Dense (256)
+
 Dropout (0.5)
+
 Softmax
 
 🔹 Özellikler
 
 Transfer learning yok
+
 Orta düzey veri artırımı
+
 Daha derin ama temkinli yapı
 
 🔹 Sonuç
@@ -92,17 +107,25 @@ Model 3, Model 2’ye kıyasla daha sade, daha dengeli ve genelleme kabiliyeti y
 🔹 Temel Farklar
 
 Daha az agresif veri artırımı
+
 Daha küçük batch size
+
 Daha düşük öğrenme oranı
+
 Batch Normalization yerine mimari sadelik
 
 🔹 Mimari
 
 Conv(32) → MaxPool
+
 Conv(64) → MaxPool
+
 Conv(128) → MaxPool
+
 Flatten
+
 Dense (128)
+
 Softmax
 
 🔹 Sonuç
