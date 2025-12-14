@@ -102,5 +102,7 @@ Model 3’ün final versiyonu, önceki tüm Model 3 denemelerine kıyasla daha y
 
 Bu durum, deneysel yaklaşımın doğru şekilde ilerlediğini ve Model 3’ün beklenen performans artışını sağladığını göstermektedir.
 
+<img width="1606" height="156" alt="image" src="https://github.com/user-attachments/assets/cbd2c7e1-5799-48cb-9cce-3de919dab6bd" />
 
+<img width="770" height="107" alt="image" src="https://github.com/user-attachments/assets/19b4d7e0-ca7f-4c86-bbd7-ad28c38a8bbe" />
 
