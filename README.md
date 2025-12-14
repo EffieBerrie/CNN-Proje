@@ -14,8 +14,11 @@ Validation
 Test
 
 Tüm görüntüler 128×128 piksel boyutuna yeniden ölçeklendirilmiştir.
+
 Test verileri eğitim sürecine kesinlikle dahil edilmemiştir.
+
 Model 2 ve Model 3’te pikseller [0,1] aralığına normalize edilmiştir.
+
 Model 1’de VGG16’ya uygun olacak şekilde preprocess_input kullanılmıştır.
 
 🧠 Model 1 – Transfer Learning (VGG16)
@@ -27,15 +30,22 @@ Model 1’de, ImageNet veri seti üzerinde önceden eğitilmiş VGG16 mimarisi k
 🔹 Mimari
 
 VGG16 (pretrained, frozen)
+
 Flatten
+
 Dense (256, ReLU)
+
 Dropout (0.3)
+
 Dense (Softmax)
+
 
 🔹 Özellikler
 
 Transfer Learning yaklaşımı
+
 Küçük veri setlerinde hızlı ve stabil öğrenme
+
 ImageNet benzerliği avantajı
 
 🔹 Sonuç
